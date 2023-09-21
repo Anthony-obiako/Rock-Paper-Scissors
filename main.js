@@ -40,13 +40,13 @@ function gameWinner() {
     (userChoice === "paper" && computerPick === "rock") ||
     (userChoice === "scissors" && computerPick === "paper")
   ) {
-    gameResult = " You Win!!!";
+    gameResult = " You Win";
   } else if (
     (userChoice === "rock" && computerPick === "paper") ||
     (userChoice === "paper" && computerPick === "scissors") ||
     (userChoice === "scissors" && computerPick === "rock")
   ) {
-    gameResult = " You lose, Computer Wins";
+    gameResult = " You lose";
   }
 
   result.innerHTML = gameResult;
